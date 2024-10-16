@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'multibranch pipeline'
+                echo "shared library"
             }
         }
     }
